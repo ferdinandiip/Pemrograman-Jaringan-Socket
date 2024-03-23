@@ -6,24 +6,10 @@ Kelas  : IF 02-01
 
 NIM    : 1203220138
 
-1.	Membuat laporan percobaan praktikum dan beri Analisa Hasil Percobaan tadi yang sudah dibuat Pembuatan Aplikasi Client-Server Sederhana (Single Thread)
-   ##Client
+1. Membuat sebuah program server yang dapat menerima koneksi dari klien menggunakan protokol TCP. Server ini akan menerima pesan dari klien dan mengirimkan pesan balasan berisi jumlah karakter pada pesan tersebut. Gunakan port 12345 untuk server. Membuat analisa dari hasil program tersebut
 
-  	import socket
-  	
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
- 
-    HOST = 'localhost'
-  	PORT = 12345
+Code
 
-    client_socket.connect((HOST, PORT)) 
- 
-    pesan = input("Masukkan angka :") 
-    client_socket.sendall(pesan.encode()) 
- 
-    data = client_socket.recv(1024) 
-    print(data.decode()) 
- 
-    client_socket.close()
+
 
    
