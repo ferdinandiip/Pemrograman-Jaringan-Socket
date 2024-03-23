@@ -1,1 +1,3 @@
-# Pemrograman-Jaringan-Socket[Ferdinand_1203220138_IF 02-01_Client Server.docx](https://github.com/ferdinandiip/Pemrograman-Jaringan-Socket/files/14730090/Ferdinand_1203220138_IF.02-01_Client.Server.docx)
+# Pemrograman-Jaringan-Socket
+
+# 1.	Membuat-laporan-percobaan-praktikum dan beri Analisa Hasil Percobaan tadi yang sudah dibuat Pembuatan Aplikasi Client-Server Sederhana (Single Thread)
